@@ -6,7 +6,7 @@ set -v
 #echo 'export' ABZ'='"222">>~/.bashrc
 #source ~/.bashrc
 
-GETIP="$(gcloud sql instances describe advert-db-instance-b --format='get(ipAddresses[0].ipAddress)')"
+GETIP="$(gcloud sql instances describe advert-db-instance --format='get(ipAddresses[0].ipAddress)')"
 
 
 # Install Stackdriver logging agent

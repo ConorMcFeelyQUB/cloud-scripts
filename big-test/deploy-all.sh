@@ -30,11 +30,11 @@ gcloud sql users set-password root --host=% --instance $PAGE_DB_INSTANCE_NAME --
 gcloud services enable sqladmin.googleapis.com
 
 #allow http traffic
-# gcloud compute firewall-rules create default-allow-http-8080 \
-#     --allow tcp:8080 \
-#     --source-ranges 0.0.0.0/0 \
-#     --target-tags http-server \
-#     --description "Allow port 8080 access to http-server"
+gcloud compute firewall-rules create default-allow-http-8080 \
+    --allow tcp:8080 \
+    --source-ranges 0.0.0.0/0 \
+    --target-tags http-server \
+    --description "Allow port 8080 access to http-server"
 
 
 ############################################################

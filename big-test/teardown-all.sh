@@ -1,8 +1,8 @@
 
 set -x
 
-ADVERT_DB_INSTANCE_NAME="advert-db-instance-a"
-PAGE_DB_INSTANCE_NAME="page-db-instance-a"
+ADVERT_DB_INSTANCE_NAME="advert-db-instance"
+PAGE_DB_INSTANCE_NAME="page-db-instance"
 SQL_SETUP_INSTANCE_NAME="sql-setup-vm-instance"
 REGION="europe-west2"
 ZONE="europe-west2-a"

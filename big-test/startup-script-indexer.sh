@@ -1,7 +1,7 @@
 
 set -v
 
-GETIP="$(gcloud sql instances describe page-db-instance-b --format='get(ipAddresses[0].ipAddress)')"
+GETIP="$(gcloud sql instances describe page-db-instance --format='get(ipAddresses[0].ipAddress)')"
 
 # Install Stackdriver logging agent
 curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh

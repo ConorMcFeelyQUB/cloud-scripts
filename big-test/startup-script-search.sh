@@ -8,9 +8,9 @@ sudo bash install-logging-agent.sh
 
 #storing ip of database to put into conf file
 
-GETIPADVERT="$(gcloud sql instances describe advert-db-instance-b --format='get(ipAddresses[0].ipAddress)')"
+GETIPADVERT="$(gcloud sql instances describe advert-db-instance --format='get(ipAddresses[0].ipAddress)')"
 
-GETIPPAGE="$(gcloud sql instances describe page-db-instance-b --format='get(ipAddresses[0].ipAddress)')"
+GETIPPAGE="$(gcloud sql instances describe page-db-instance --format='get(ipAddresses[0].ipAddress)')"
 
 # Install prerequisits
 apt-get update
