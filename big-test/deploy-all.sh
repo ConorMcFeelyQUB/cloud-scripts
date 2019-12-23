@@ -1,7 +1,7 @@
 set -ex
 
-ADVERT_DB_INSTANCE_NAME="advert-db-instance-b"
-PAGE_DB_INSTANCE_NAME="page-db-instance-b"
+ADVERT_DB_INSTANCE_NAME="advert-db-instance"
+PAGE_DB_INSTANCE_NAME="page-db-instance"
 DB_PASSWORD="QUBccProject"
 DB_TEIR="db-n1-standard-2"
 REGION="europe-west2"
