@@ -9,7 +9,7 @@ sudo bash install-logging-agent.sh
 
 # Install prerequisites
 apt-get update
-apt-get install -yq git supervisor python python-pipcd
+apt-get install -yq git supervisor python python-pip
 pip install --upgrade pip virtualenv
 
 # account to own server process
