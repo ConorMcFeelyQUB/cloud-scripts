@@ -13,6 +13,10 @@ GETIP="$(gcloud sql instances describe advert-db-instance --format='get(ipAddres
 curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
 sudo bash install-logging-agent.sh
 
+# Install Stackdriver monitoring agent
+curl -sSO https://dl.google.com/cloudagents/install-monitoring-agent.sh
+sudo bash install-monitoring-agent.sh
+
 # Install prerequsits
 apt-get update
 apt-get install -yq git supervisor python python-pip
