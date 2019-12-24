@@ -5,6 +5,9 @@ set -v
 curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
 sudo bash install-logging-agent.sh
 
+# Install Stackdriver monitoring agent
+curl -sSO https://dl.google.com/cloudagents/install-monitoring-agent.sh
+sudo bash install-monitoring-agent.sh
 
 #storing ip of database to put into conf file
 
